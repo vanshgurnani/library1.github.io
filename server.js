@@ -7,6 +7,7 @@ const app = express();
 // Create a MySQL connection pool
 const pool = mysql.createPool({
   host: 'localhost',
+  port:'3000',
   user: 'root',
   password: 'mysql123',
   database: 'lms'
